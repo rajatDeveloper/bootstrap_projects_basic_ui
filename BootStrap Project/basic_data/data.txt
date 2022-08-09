@@ -1,0 +1,6 @@
+x- small  col-12 
+small     col-sm-12
+medium    col-md-7
+large     col-lg-12
+extra l   col-xl-12
+e e l     col-xxl-12

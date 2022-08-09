@@ -1,0 +1,274 @@
+/* vav styling  */
+#top_nav {
+    background-color: #daac00;
+    padding: 0.6% 4%;
+
+
+}
+
+#searchbox::placeholder {
+    color: white;
+}
+
+#searchbox {
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 47px;
+    box-shadow: 5px 10px 0px #00000021;
+}
+
+#searchbtn {
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    /* color: rgb(255, 255, 255); */
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width : 768px) {
+    #searchform {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    #top_nav {
+        padding: 0;
+    }
+}
+
+
+
+/* banner   */
+#banner {
+    background-color: #fcc302;
+    padding-bottom: 20px;
+
+
+}
+
+#banner-text h1 {
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+#banner-text p {
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#banner-btn-1 {
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+
+#banner-btn-2 {
+    /* background-color: #00bec9; */
+    border: 2px solid white;
+    color: white;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width : 1200px) {
+    #banner-text h1 {
+        font-size: 50px;
+
+    }
+
+    #banner {
+        padding-bottom: 70px;
+    }
+
+    #bannerimg img {
+        padding-top: 70px;
+    }
+
+}
+
+@media only screen and (max-width : 900px) {
+    #banner-text h1 {
+        font-size: 40px;
+
+    }
+
+    #banner {
+        padding-bottom: 70px;
+    }
+
+    #bannerimg img {
+        padding-top: 70px;
+    }
+
+}
+
+
+/* service section */
+
+#service-text {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#service-btn {
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid cc302;
+}
+
+#service-img {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+/* counter section  */
+
+#counter-section {
+    background-image: url(../images/img-3.jpg);
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 2; */
+}
+
+.counter-icon {
+    font-size: 70px;
+}
+
+@media only screen and (max-width : 500px) {
+    .counter-icon {
+        font-size: 50px;
+    }
+}
+
+/* blog  */
+
+#blog {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#blog-title {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#blog-p {
+    margin-bottom: 70px;
+}
+
+.article-detail {
+    padding: 15px;
+    border: 1px solid rgb(185, 185, 185);
+    border-top: 0;
+}
+
+.article-title {
+    font-weight: bold;
+}
+
+.article-date,
+.article-link {
+    color: #00bec9;
+}
+
+/* footer  */
+#footer {
+    background-color: #343434;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer-search-box {
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    left: 10px;
+}
+
+#footer-search-submit {
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 40px;
+}
+
+.social-icon {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width : 1150px) {
+    #footer-search-box {
+
+        max-width: 150px;
+
+    }
+
+
+
+}
+
+@media only screen and (max-width : 768px) {
+    #footer-search-box {
+
+        max-width: 100px;
+
+    }
+
+    #footer-search-submit {
+
+        padding: 15px 25px;
+    }
+
+}
+
+
+
+@media only screen and (max-width : 500px) {
+
+    #footer-search-box {
+
+        max-width: 260px;
+
+    }
+
+    #footer {
+        padding-top: 10px;
+    }
+
+    #footer h4 {
+        padding-top: 40px
+    }
+}
